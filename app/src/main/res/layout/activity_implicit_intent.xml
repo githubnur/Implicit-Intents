@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImplicitIntent">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Share Text"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Alarm"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/jam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="Jam"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/menit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="Menit"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="Deskripsi"
+        android:padding="15dp"
+       />
+
+    <Button
+        android:id="@+id/btnalarm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Set Alarm"/>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/black"
+    />
+
+    <ImageView
+        android:id="@+id/hasilfoto"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:padding="18dp"/>
+
+    <Button
+        android:id="@+id/btnfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:text="Ambil Gambar"
+/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        />
+
+
+    <EditText
+        android:id="@+id/etNo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter phone no."
+        android:textColor="@color/black"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/background_dark"
+        android:layout_height="55dp"
+        android:text="Camera"/>
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/background_dark"
+        android:layout_height="55dp"
+        android:text="Contact"/>
+
+    <Button
+        android:id="@+id/browser"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/background_dark"
+        android:layout_height="55dp"
+        android:text="Browser"/>
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/background_dark"
+        android:layout_height="55dp"
+        android:text="Gallery"/>
+
+    <Button
+        android:id="@+id/pad"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/background_dark"
+        android:layout_height="55dp"
+        android:text="CallPad"/>
+
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
